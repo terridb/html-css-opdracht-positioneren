@@ -2,9 +2,13 @@
 
 /*lichtgrijs #F7F7F7 en donkergrijs #d3d3d3*/
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Poppins', serif;
-    box-sizing: border-box;
+
 }
 
 .recipe-card {
@@ -23,7 +27,7 @@ body {
     height: 18px;
     position: absolute;
     top: 15px;
-    left: 315px;
+    right: 15px;
 }
 
 .recipe-image {
@@ -49,8 +53,7 @@ body {
 .recipe-title {
     font-weight: 400;
     font-size: 16px;
-    padding-left: 20px;
-    padding-bottom: 10px;
+    margin: 20px;
 }
 
 /*Plaats nu een lichtgrijze balk tussen de titel en de afbeelding. Maak hierin drie groepjes van een icoontje en een
